@@ -93,7 +93,7 @@ public class FizzBussTest {
     }
     
     @Test
-    public void ReturnIsFizz() {
+    public void twelveReturnIsFizzTwelve() {
             FizzBuzz fz = new FizzBuzz();
             String result = fz.sendAndReturn(12);
             assertEquals("Fizz",result);
@@ -101,7 +101,7 @@ public class FizzBussTest {
     }
     
     @Test
-    public void thirdteenReturnIsthirdteen() {
+    public void thirteenReturnIsthirteen() {
             FizzBuzz fz = new FizzBuzz();
             String result = fz.sendAndReturn(13);
             assertEquals("13",result);
@@ -117,7 +117,7 @@ public class FizzBussTest {
     }
     
     @Test
-    public void fifthteenReturnIsfifthteen() {
+    public void fifteenReturnIsfifteen() {
             FizzBuzz fz = new FizzBuzz();
             String result = fz.sendAndReturn(15);
             assertEquals("FizzBuzz",result);
